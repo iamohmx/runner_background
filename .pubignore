@@ -1,0 +1,5 @@
+# Files to exclude from package publishing
+PROJECT_SUMMARY.md
+*.iml
+.vscode/
+.idea/

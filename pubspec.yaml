@@ -1,7 +1,10 @@
 name: runner_background
-description: "A Flutter package for background service and notification management."
+description: "A Flutter package for background service and notification management. Enables apps to run tasks in the background and show local notifications."
 version: 0.0.1
-homepage:
+homepage: https://github.com/iamohmx/runner_background
+repository: https://github.com/iamohmx/runner_background
+issue_tracker: https://github.com/iamohmx/runner_background/issues
+documentation: https://github.com/iamohmx/runner_background/blob/main/README.md
 
 environment:
   sdk: ^3.5.0
