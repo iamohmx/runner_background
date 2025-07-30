@@ -1,8 +1,10 @@
 library runner_background;
 
-import 'package:runner_background/runner_background.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'src/background_service.dart';
+import 'src/notification_service.dart';
+import 'src/runner_background_config.dart';
 
 export 'src/background_service.dart';
 export 'src/notification_service.dart';

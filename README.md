@@ -14,13 +14,17 @@ A Flutter package for running background services and displaying notifications w
 - 🎯 **Customizable**: Flexible configuration options
 - 🛡️ **Reliable**: Built on top of workmanager and flutter_local_notifications
 
+## Changelog
+
+See what's new in the latest releases: [CHANGELOG.md](CHANGELOG.md)
+
 ## Installation
 
 Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  runner_background: ^0.0.1
+  runner_background: ^1.0.0
 ```
 
 Run:

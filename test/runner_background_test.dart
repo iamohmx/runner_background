@@ -33,7 +33,8 @@ void main() {
       expect(config.channelName, equals('Test Channel'));
       expect(config.defaultTitle, equals('Test Title'));
       expect(config.defaultBody, equals('Test Body'));
-      expect(config.channelDescription, equals('Background service notifications'));
+      expect(config.channelDescription,
+          equals('Background service notifications'));
       expect(config.showInForeground, equals(true));
     });
 
@@ -53,11 +54,16 @@ void main() {
 
       expect(customConfig.frequency, equals(const Duration(minutes: 30)));
       expect(customConfig.initialDelay, equals(const Duration(seconds: 20)));
-      expect(customConfig.notificationConfig.channelId, equals('custom_channel'));
-      expect(customConfig.notificationConfig.channelName, equals('Custom Channel'));
-      expect(customConfig.notificationConfig.defaultTitle, equals('Custom Title'));
-      expect(customConfig.notificationConfig.defaultBody, equals('Custom Body'));
-      expect(customConfig.notificationConfig.channelDescription, equals('Custom description'));
+      expect(
+          customConfig.notificationConfig.channelId, equals('custom_channel'));
+      expect(customConfig.notificationConfig.channelName,
+          equals('Custom Channel'));
+      expect(
+          customConfig.notificationConfig.defaultTitle, equals('Custom Title'));
+      expect(
+          customConfig.notificationConfig.defaultBody, equals('Custom Body'));
+      expect(customConfig.notificationConfig.channelDescription,
+          equals('Custom description'));
       expect(customConfig.notificationConfig.showInForeground, equals(false));
     });
 
